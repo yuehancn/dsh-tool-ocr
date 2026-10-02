@@ -1,0 +1,19 @@
+# The dsh-tool-ocr bundle patch: one insert adding the OCR tool suite.
+#
+# Engines are configured by overriding this row in the profile's own
+# cordis.patch.yml (the last write wins per row):
+#
+#   - id: tool-ocr
+#     config:
+#       backend: command
+#       engines:
+#         - id: tesseract
+#           label: Tesseract (chi_sim+eng)
+#           command: tesseract
+#           args: ["{input}", "{output}", "-l", "chi_sim+eng"]
+#           isDefault: true
+#       outputDir: C:/Users/<you>/Documents/ocr-output
+
+- insert:
+    - id: tool-ocr
+      name: dsh-tool-ocr
