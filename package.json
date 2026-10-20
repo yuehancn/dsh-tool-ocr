@@ -1,5 +1,5 @@
 {
-  "name": "dsh-tool-ocr",
+  "name": "@yuehancn/dsh-tool-ocr",
   "version": "1.0.0",
   "description": "Extract text from images and PDFs in DeepSeek Harness: read a born-digital text layer, or OCR a scan with any engine you configure.",
   "type": "module",

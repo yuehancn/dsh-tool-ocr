@@ -16,4 +16,4 @@
 
 - insert:
     - id: tool-ocr
-      name: dsh-tool-ocr
+      name: "@yuehancn/dsh-tool-ocr"
